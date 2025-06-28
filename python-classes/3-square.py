@@ -6,7 +6,7 @@ class Square:
     """Defines a square with size validation and area computation."""
     def __init__(self, size=0):
         self.size = size
- 
+
     @property
     def size(self):
         return self.__size
